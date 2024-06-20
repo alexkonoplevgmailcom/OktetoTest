@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  oktetotest:
+    image: ${DOCKER_REGISTRY-}oktetotest
+    build:
+      context: .
+      dockerfile: OktetoTest/Dockerfile

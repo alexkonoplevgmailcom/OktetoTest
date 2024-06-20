@@ -1,0 +1,6 @@
+@OktetoTest_HostAddress = http://localhost:5027
+
+GET {{OktetoTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
